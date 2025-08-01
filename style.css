@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fbe9ff;
+  margin: 0;
+  padding: 0;
+  color: #5a4b81;
+}
+header {
+  background: #d8b4fe;
+  text-align: center;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+h1 { margin: 0; }
+#malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.semestre {
+  background: #f9d9ff;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.semestre h2 { text-align: center; }
+.materia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fbb1d3;
+  margin: 0.3rem 0;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s, opacity 0.3s;
+}
+.materia.bloqueada {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.materia.completada {
+  background: #d8b4fe;
+  text-decoration: line-through;
+}
+.total {
+  text-align: center;
+  padding: 1rem;
+  background: #e9d9ff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 1rem;
+}
+button {
+  background: #d8b4fe;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
