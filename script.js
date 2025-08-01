@@ -131,7 +131,7 @@ function toggleMateria(nombre) {
   renderMalla();
 }
 
-document.getElementById('add-materia').addEventListener('click', () => {
+document.getElementById("add-materia").addEventListener("click", () => {
   const nombre = prompt("Nombre de la materia:");
   if (!nombre) return;
 
@@ -146,8 +146,6 @@ document.getElementById('add-materia').addEventListener('click', () => {
 
   malla[semestre - 1].materias.push({ nombre, creditos, requisito: null });
   renderMalla();
-});
-
 });
 
 renderMalla();
