@@ -133,11 +133,21 @@ function toggleMateria(nombre) {
 
 document.getElementById('add-materia').addEventListener('click', () => {
   const nombre = prompt("Nombre de la materia:");
-  const creditos = parseInt(prompt("Créditos:"), 10);
-  if (!nombre || isNaN(creditos)) return;
+  if (!nombre) return;
 
-  malla[0].materias.push({ nombre, creditos, requisito: null });
+  const creditos = parseInt(prompt("Créditos:"), 10);
+  if (isNaN(creditos) || creditos <= 0) return;
+
+  const semestre = parseInt(prompt(`¿En qué semestre quieres agregarla? (1 a ${malla.length})`), 10);
+  if (isNaN(semestre) || semestre < 1 || semestre > malla.length) {
+    alert("Semestre inválido.");
+    return;
+  }
+
+  malla[semestre - 1].materias.push({ nombre, creditos, requisito: null });
   renderMalla();
+});
+
 });
 
 renderMalla();
