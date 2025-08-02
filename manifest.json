@@ -7,8 +7,8 @@
   "theme_color": "#d8b4fe",
   "icons": [
     {
-      "src": "gato.jpg",
-      "sizes": "192x192",
+      "src": "gatomorado.jpg",
+      "sizes": "626x626",
       "type": "image/jpg"
     }
   ]
