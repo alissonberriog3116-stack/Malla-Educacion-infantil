@@ -8,7 +8,7 @@
   "icons": [
     {
       "src": "gatomorado.jpg",
-      "sizes": "626x626",
+      "sizes": "512x512",
       "type": "image/jpg"
     }
   ]
