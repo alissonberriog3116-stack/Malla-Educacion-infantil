@@ -150,7 +150,6 @@ document.getElementById("add-materia").addEventListener("click", () => {
 });
 
 renderMalla();
-
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('service-worker.js');
 }
