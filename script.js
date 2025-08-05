@@ -25,7 +25,7 @@ const malla = [
       { nombre: "Taller de conceptos: infancia y política 🐣", creditos: 4, requisito: "Taller de conceptos: infancia y desarrollo 🌺" },
       { nombre: "Laboratorio de experiencias: Educación, familia y comunidad 👩🏻‍🏫", creditos: 4, requisito: "Laboratorio de experiencias: Prácticas de crianza y cuidado ✨" },
       { nombre: "Afectividad y relación pedagógica 🫂", creditos: 3, requisito: "Arte, juego y creatividad 🎨" },
-      { nombre: "Taller de lectura y escritura II 📖", creditos: 2, requisito: "Taller de lectura y escritura I" },
+      { nombre: "Taller de lectura y escritura II 📖", creditos: 2, requisito: "Taller de lectura y escritura I 📖" },
       { nombre: "Electiva complementaria I 🧸", creditos: 2, requisito: null },
       { nombre: "Inglés III 🇺🇸", creditos: 2, requisito: "Inglés II 🇺🇸" }
     ]
